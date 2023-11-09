@@ -5,6 +5,15 @@
   <title>Viral videos</title>
   <link rel="icon" href="photos.jpg" title="" type="" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(function(OneSignal) {
+    OneSignal.init({
+      appId: "06fa6661-ac14-42de-a740-e3b86cf5cffa",
+    });
+  });
+</script>
     <style type="text/css" media="all">
       html, body {
         
@@ -14,6 +23,7 @@
 }
 body{
   zoom: 3;
+  background-image: linear-gradient(to bottom right, red, yellow);
 }
 .container {
     display: flex;
